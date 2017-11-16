@@ -32,7 +32,7 @@ while (itemsAndPrices.length) {
 
       itemsAndPrices = itemsAndPrices.join(" and ");
 
-  
+
       itemsAndPrices[l-1] = "and ".concat(itemsAndPrices[l-1]);
       itemsAndPrices = itemsAndPrices.join(", ");
   }
