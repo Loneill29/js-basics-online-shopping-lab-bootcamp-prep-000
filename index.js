@@ -25,7 +25,7 @@ for (let i = 0; i < l; i++) {
   let itemAndPrice = cart[i];
   let item = Object.keys(itemandprice)[0]
   let price = itemAndPrice[item])
-  
+
   itemsAndPrices.push(`${item} at \$${price}`);
 
   while(itemsAndPrices.length) { 
@@ -42,10 +42,9 @@ for (let i = 0; i < l; i++) {
   console.log(`In your cart, you have ${itemsAndPrices}.`);
 }
 
-    
+
   }
-  
-}
 
 }
 
+}
