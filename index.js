@@ -25,11 +25,11 @@ let itemsAndPrices = [];
 for (let i = 0; i < l; i++) {
   let itemAndPrice = cart[i];
   let item = Object.keys(itemandprice)[0]
-  let price = itemAndPrice[item])
+  let price = itemAndPrice[item]
 
   itemsAndPrices.push(`${item} at \$${price}`)};
 
-switch (itemsAndPrices.length) {
+while (itemsAndPrices.length) {
     case 1:
       break;
     case 2:
