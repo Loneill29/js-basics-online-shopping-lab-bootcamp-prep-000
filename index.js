@@ -15,6 +15,7 @@ function addToCart(item) {
   console.log (`${item} has been added to your cart.`);
   return cart;
 }
+
 function viewCart() {
   const l = cart.length
   if (l===0) return console.log(`Your shopping cart is empty.`)
@@ -26,7 +27,7 @@ for (let i = 0; i < l; i++) {
   let item = Object.keys(itemandprice)[0]
   let price = itemAndPrice[item])
 
-  itemsAndPrices.push(`${item} at \$${price}`);
+  itemsAndPrices.push(`${item} at \$${price}`)};
 
   while(itemsAndPrices.length) {
     case 1:
