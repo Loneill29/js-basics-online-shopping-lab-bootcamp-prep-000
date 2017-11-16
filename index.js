@@ -15,3 +15,37 @@ function addToCart(item) {
   console.log (`${item} has been added to your cart.`);
   return cart;
 }
+function viewCart() {
+  const l = cart.length
+  if (l===0) return console.log(`Your shopping cart is empty.`)
+
+let itemsAndPrices = [];
+
+for (let i = 0; i < l; i++) {
+  let itemAndPrice = cart[i];
+  let item = Object.keys(itemandprice)[0]
+  let price = itemAndPrice[item])
+  
+  itemsAndPrices.push(`${item} at \$${price}`);
+
+  while(itemsAndPrices.length) { 
+    case 1:
+      break;
+    case 2:
+      itemsAndPrices = itemsAndPrices.join(" and ");
+      break;
+    default:
+      itemsAndPrices[l-1] = "and ".concat(itemsAndPrices[l-1]);
+      itemsAndPrices = itemsAndPrices.join(", ");
+  }
+
+  console.log(`In your cart, you have ${itemsAndPrices}.`);
+}
+
+    
+  }
+  
+}
+
+}
+
