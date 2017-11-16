@@ -28,7 +28,7 @@ for (let i = 0; i < l; i++) {
 
   itemsAndPrices.push(`${item} at \$${price}`)};
 
-while (itemsAndPrices.length) {
+switch (itemsAndPrices.length) {
 
   case 1:
 break;
