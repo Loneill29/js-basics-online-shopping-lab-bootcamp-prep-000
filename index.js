@@ -30,12 +30,10 @@ for (let i = 0; i < l; i++) {
   itemsAndPrices.push(`${item} at \$${price}`)};
 
 while (itemsAndPrices.length) {
-    case 1:
-      break;
-    case 2:
+
       itemsAndPrices = itemsAndPrices.join(" and ");
-      break;
-    default:
+    
+  
       itemsAndPrices[l-1] = "and ".concat(itemsAndPrices[l-1]);
       itemsAndPrices = itemsAndPrices.join(", ");
   }
