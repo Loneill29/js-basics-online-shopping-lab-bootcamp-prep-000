@@ -28,7 +28,7 @@ for (let i = 0; i < l; i++) {
 
   itemsAndPrices.push(`${item} at \$${price}`);
 
-  while(itemsAndPrices.length) { 
+  while(itemsAndPrices.length) {
     case 1:
       break;
     case 2:
@@ -41,6 +41,3 @@ for (let i = 0; i < l; i++) {
 
   console.log(`In your cart, you have ${itemsAndPrices}.`);
 }
-
-
-
